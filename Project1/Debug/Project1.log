@@ -1,0 +1,19 @@
+﻿  classHarness.cpp
+D:\ProgrammingFiles\OOD\Project1\Project1\number.h(7): error C3646: 'dividing': unknown override specifier
+D:\ProgrammingFiles\OOD\Project1\Project1\number.h(7): error C2059: syntax error: '('
+D:\ProgrammingFiles\OOD\Project1\Project1\number.h(7): error C2238: unexpected token(s) preceding ';'
+D:\ProgrammingFiles\OOD\Project1\Project1\classHarness.cpp(27): error C2660: 'number::dividing': function does not take 0 arguments
+  D:\ProgrammingFiles\OOD\Project1\Project1\number.h(6): note: see declaration of 'number::dividing'
+D:\ProgrammingFiles\OOD\Project1\Project1\classHarness.cpp(31): error C2660: 'number::dividing': function does not take 0 arguments
+  D:\ProgrammingFiles\OOD\Project1\Project1\number.h(6): note: see declaration of 'number::dividing'
+  main.cpp
+D:\ProgrammingFiles\OOD\Project1\Project1\number.h(7): error C3646: 'dividing': unknown override specifier
+D:\ProgrammingFiles\OOD\Project1\Project1\number.h(7): error C2059: syntax error: '('
+D:\ProgrammingFiles\OOD\Project1\Project1\number.h(7): error C2238: unexpected token(s) preceding ';'
+  number.cpp
+D:\ProgrammingFiles\OOD\Project1\Project1\number.h(7): error C3646: 'dividing': unknown override specifier
+D:\ProgrammingFiles\OOD\Project1\Project1\number.h(7): error C2059: syntax error: '('
+D:\ProgrammingFiles\OOD\Project1\Project1\number.h(7): error C2238: unexpected token(s) preceding ';'
+D:\ProgrammingFiles\OOD\Project1\Project1\number.cpp(11): error C2511: 'std::string number::dividing(void)': overloaded member function not found in 'number'
+  D:\ProgrammingFiles\OOD\Project1\Project1\number.h(2): note: see declaration of 'number'
+  Generating Code...
