@@ -2,9 +2,14 @@
 class number
 {
 public:
+	number(int inputOne, int inputTwo);
 	number();
-	void operator()();
-	void operator()(int inputOne, int inputTwo);
+	int operator()();
 	~number();
+	int _inputOne;
+	int _inputTwo;
+//private:
+	//int _inputOne;
+	//int _inputTwo;
 };
 

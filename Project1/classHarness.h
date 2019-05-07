@@ -1,5 +1,6 @@
 #pragma once
 #include <string>
+#include <vector>
 #include "number.h"
 
 using namespace std;
@@ -9,7 +10,7 @@ class classHarness
 {
 public:
 	classHarness();
-	void testFunction();
+	void testFunction(vector<number> &vtest);
 	~classHarness();
 };
 

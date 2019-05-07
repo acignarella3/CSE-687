@@ -3,28 +3,36 @@
 
 using namespace std;
 
+int _inputOne;
+int _inputTwo;
+
+number::number(int inputOne, int inputTwo)
+{
+	_inputOne = inputOne;
+	_inputTwo = inputTwo;
+}
+
 number::number()
 {
+	_inputOne = -1;
+	_inputTwo = -1;
 }
 
-void number::operator()()
+int number::operator()()
 {
-	throw string("No inputs were used");
-}
-
-void number::operator()(int inputOne, int inputTwo)
-{
-	if (inputOne == 0) {
-		throw string("The first input is zero");
-	}
-	if (inputTwo == 0) {
-		throw string("The second input is zero");
+	if (_inputOne < 0 && _inputTwo < 0) {
+		throw string("No inputs detected");
+	} else if (_inputOne < 0) {
+		throw string("The first input must be a positive number");
+	} else if (_inputTwo < 0) {
+		throw string("The second input must be a positive number");
+	} else if (_inputTwo == 0) {
+		throw string("The second input cannot be zero");
 	}
 
-	cout << "The value input for inputOne is: " << inputOne << endl;
-	cout << "The value input for inputTwo is: " << inputTwo << endl;
-	int results = inputOne / inputTwo;
-	cout << "The result is: " << results << endl;
+	int results = _inputOne / _inputTwo;
+
+	return results;
 }
 
 number::~number()
